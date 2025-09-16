@@ -1,18 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
 
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Home from "./components/Home.jsx";
+import "../styles/index.css";
 
-// index.css'
-import '../styles/index.css'
 
-// components
-import Home from './components/Home';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("app")).render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <Home />
+  </React.StrictMode>
+);
